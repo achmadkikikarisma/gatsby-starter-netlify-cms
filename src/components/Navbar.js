@@ -43,7 +43,7 @@ const Navbar = class extends React.Component {
           <ul className="navbar-nav mr-auto">
           </ul>
           <ul className="navbar-nav md-auto">
-            <li className="nav-item active">
+            <li className="nav-item">
               <a className="nav-link" href="#">Service</a>
             </li>
             <li className="nav-item">

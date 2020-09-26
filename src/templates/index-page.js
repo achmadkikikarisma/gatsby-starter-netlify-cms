@@ -16,10 +16,10 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <Fragment>
-    <section className="hero py-5">
-      <div className="container mt-5 py-5">
-        <div className="row mt-5 mb-5 justify-content-center">
-          <div className="col-md-10 text-center">
+    <section className="hero">
+      <div className="container mt-5 pt-5">
+        <div className="row mt-5 pt-5 justify-content-center">
+          <div className="col-md-10 pt-5 text-center">
             <div className="d-block">
               <h1>
                 Build the invaluable product
@@ -29,6 +29,38 @@ export const IndexPageTemplate = ({
             <a className="btn btn-hire">
               Contact Us
             </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="pricing pb-5">
+      <div className="container">
+        <div className="row row-card">
+          <div className="col-md-12 mb-3 text-center">
+            <h1>
+              Services
+            </h1>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                Product Design (UX/UI)
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                Web and Mobile Development
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card">
+              <div className="card-body">
+                Grapich Design and Marketing
+              </div>
+            </div>
           </div>
         </div>
       </div>
