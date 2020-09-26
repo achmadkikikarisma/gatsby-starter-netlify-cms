@@ -168,6 +168,13 @@ footer.footer
   background: transparent;
   position: relative;
   z-index: 111;
+  span
+    color: rgba(0, 0, 0, 0.38) !important;
+    display: block;
+    margin-bottom: 20px;
+  a
+    color: #5e72eb;
+    text-decoration: underline;
   h1
     color: #5e72eb;
   .row-card
@@ -180,6 +187,12 @@ footer.footer
     box-shadow: 0 0.5em 1em -0.125em rgba(43, 37, 35, 0.1), 0 0px 0 1px rgba(43, 37, 35, 0.02);
     .card
       border: 1px solid #5e72eb;
-      border-radius: 4px;
-      color: #5e72eb;
+      background: #5e72eb;
+      color: #fff;
+      cursor: pointer;
       text-align: center;
+      &:hover
+        border: 1px solid #5e72eb;
+        background: #fff;
+        border-radius: 4px;
+        color: #5e72eb;

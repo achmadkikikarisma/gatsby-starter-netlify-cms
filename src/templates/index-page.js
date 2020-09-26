@@ -63,6 +63,22 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
+        <div className="row mt-5 pt-5">
+          <div className="col-md-4">
+            <h4>
+              Why Pexel Design?
+            </h4>
+            <span className="d-block">
+              Pexel Design will help growth your business until success to getting your revenue and audience
+            </span>
+            <a className="mt-5">
+              Hire Us
+            </a>
+          </div>
+          <div className="col-md-8">
+
+          </div>
+        </div>
       </div>
     </section>
     {/* <section className="section section--gradient">
