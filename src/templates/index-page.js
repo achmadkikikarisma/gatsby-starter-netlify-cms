@@ -64,7 +64,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
         <div className="row mt-5 pt-5">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <h4>
               Why Pexel Design?
             </h4>
@@ -75,8 +75,47 @@ export const IndexPageTemplate = ({
               Hire Us
             </a>
           </div>
-          <div className="col-md-8">
-
+          <div className="col-md-1">
+          </div>
+          <div className="col-md-6">
+            <ul class="list-unstyled">
+              <li>
+                <div className="d-flex align-items-start">
+                  <p/>
+                  <div className="d-block ml-3">
+                    <b>24/7 Service Care</b>
+                    <span>
+                      Pexel Design will help you anytime if you need us<br/>
+                      Don't hesitate to contact us we always for you 24/7
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="d-flex align-items-start">
+                  <p/>
+                  <div className="d-block ml-3">
+                    <b>Consult Anytime</b>
+                    <span>
+                      If you confused with your product which you will build<br/>
+                      Pexel Design will cover you until you get your goals and profit
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="d-flex align-items-start">
+                  <p/>
+                  <div className="d-block ml-3">
+                    <b>Client Satisfaction</b>
+                    <span>
+                      Pexel Design is very customer Obsessed<br/>
+                      We work until get client satisfaction
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
