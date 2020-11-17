@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Airbnb Black";
+  src: url("AirbnbCereal-Black.ttf");
+}
+@font-face {
+  font-family: "Airbnb Bold";
+  src: url("AirbnbCereal-Bold.ttf");
+}
+@font-face {
+  font-family: "Airbnb Book";
+  src: url("AirbnbCereal-Book.ttf");
+}
+@font-face {
+  font-family: "Airbnb Light";
+  src: url("AirbnbCereal-Light.ttf");
+}
+@font-face {
+  font-family: "Airbnb ExtraBold";
+  src: url("AirbnbCereal-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Airbnb Medium";
+  src: url("AirbnbCereal-Medium.ttf");
+}
+@font-face {
+  font-family: "Playfair Display Black";
+  src: url("PlayfairDisplay-Black.ttf");
+}
+@font-face {
+  font-family: "Playfair Display Black Italic";
+  src: url("PlayfairDisplay-BlackItalic.ttf");
+}
+@font-face {
+  font-family: "Playfair Display Bold";
+  src: url("PlayfairDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "Playfair Display Bold Italic";
+  src: url("PlayfairDisplay-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Playfair Display Italic";
+  src: url("PlayfairDisplay-Italic.ttf");
+}
+@font-face {
+  font-family: "Playfair Display Regular";
+  src: url("PlayfairDisplay-Regular.ttf");
+}
+
+
+
+body{
+  font-family: "Airbnb Book";
+}
+.title{
+  font-family: "Playfair Display Bold";
+  font-size: 52px;
+  letter-spacing: 1px;
+}
+.hero b{
+  font-family: "Airbnb Medium";
+  font-size: 18px;
+  letter-spacing: 1px;
+}

@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
         <div className="row mt-5 pt-5 justify-content-center">
           <div className="col-md-10 pt-5 text-center">
             <div className="d-block">
-              <h1>
+              <h1 className="title">
                 Build the invaluable product
               </h1>
               <b>We Design and Development your ideas</b>
