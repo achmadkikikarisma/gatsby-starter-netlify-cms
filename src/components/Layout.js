@@ -7,6 +7,9 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 import 'bootstrap/dist/css/bootstrap.css'
+import '../../static/fonts/fonts.css'
+import '../../static/fonts/all.css'
+import '../../static/fonts/line-awesome.css'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()

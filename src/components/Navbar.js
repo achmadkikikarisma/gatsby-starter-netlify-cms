@@ -34,35 +34,44 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
-        {/* <a className="navbar-brand" href="#">Navbar w/ text</a> */}
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav mr-auto">
-          </ul>
-          <ul className="navbar-nav md-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#">Service</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Design Case</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                <img src={logo} alt="Pexel" style={{ width: '28px' }} />
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">About Us</a>
-            </li>
-          </ul>
-          <ul className="navbar-nav ml-auto">
-          </ul>
+      <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+        <div className="container">
+          {/* <a className="navbar-brand" href="#">Navbar w/ text</a> */}
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarText">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item">
+                <a className="nav-logo" href="/">Pexel Design</a>
+              </li>
+            </ul>
+            <ul className="navbar-nav md-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="#">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Portfolio</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">About</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="#"><i className="fab fa-behance"></i></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#"><i className="fab fa-instagram"></i></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#"><i className="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       // <nav

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 // import Features from '../components/Features'
@@ -16,157 +16,30 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <Fragment>
-    <section className="hero">
-      <div className="container mt-5 pt-5">
-        <div className="row mt-5 pt-5 justify-content-center">
-          <div className="col-md-10 pt-5 text-center">
-            <div className="d-block">
-              <h1 className="title">
-                Build the invaluable product
+   <section className="one py-5">
+     <div className="container py-5">
+       <div className="row">
+         <div className="col-md-5">
+           <div className="d-block mt-5 position-relative">
+            <span className="first-pattern"></span>
+            <span className="second-pattern"></span>
+            <span className="third-pattern"></span>
+            <div className="one-content pt-5">
+              <h1 className="font-weight-bold mt-3 mb-2 digital-agency">
+                Digital <br/>Agency
               </h1>
-              <b>We Design and Development your ideas</b>
+              <span className="text-muted d-inline-block mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+              </span>
+              <Link className="btn btn-orange" to="/contact">
+                Get Started
+              </Link>
             </div>
-            <a className="btn btn-hire">
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section className="pricing pb-5">
-      <div className="container">
-        <div className="row row-card">
-          <div className="col-md-12 mb-3 text-center">
-            <h1>
-              Services
-            </h1>
-          </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                Product Design (UX/UI)
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                Web and Mobile Development
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                Grapich Design and Marketing
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row mt-5 pt-5">
-          <div className="col-md-5">
-            <h4>
-              Why Pexel Design?
-            </h4>
-            <span className="d-block">
-              Pexel Design will help growth your business until success to getting your revenue and audience
-            </span>
-            <a className="mt-5">
-              Hire Us
-            </a>
-          </div>
-          <div className="col-md-1">
-          </div>
-          <div className="col-md-6">
-            <ul class="list-unstyled">
-              <li>
-                <div className="d-flex align-items-start">
-                  <p/>
-                  <div className="d-block ml-3">
-                    <b>24/7 Service Care</b>
-                    <span>
-                      Pexel Design will help you anytime if you need us<br/>
-                      Don't hesitate to contact us we always for you 24/7
-                    </span>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="d-flex align-items-start">
-                  <p/>
-                  <div className="d-block ml-3">
-                    <b>Consult Anytime</b>
-                    <span>
-                      If you confused with your product which you will build<br/>
-                      Pexel Design will cover you until you get your goals and profit
-                    </span>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="d-flex align-items-start">
-                  <p/>
-                  <div className="d-block ml-3">
-                    <b>Client Satisfaction</b>
-                    <span>
-                      Pexel Design is very customer Obsessed<br/>
-                      We work until get client satisfaction
-                    </span>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    {/* <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> */}
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
   </Fragment>
 )
 
