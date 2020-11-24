@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/Layout'
+import pattern from '../img/new-pattern.svg'
 // import Features from '../components/Features'
 // import BlogRoll from '../components/BlogRoll'
 
@@ -16,14 +17,14 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <Fragment>
-   <section className="one py-5">
-     <div className="container py-5">
-       <div className="row">
+   <section className="one">
+     <div className="container ">
+       <div className="row py-5 mt-5">
          <div className="col-md-5">
            <div className="d-block mt-5 position-relative">
-            <span className="first-pattern"></span>
-            <span className="second-pattern"></span>
-            <span className="third-pattern"></span>
+            {/* <span className="first-pattern"></span> */}
+            {/* <span className="second-pattern"></span> */}
+            {/* <span className="third-pattern"></span> */}
             <div className="one-content pt-5">
               <h1 className="font-weight-bold mt-3 mb-2 digital-agency">
                 Digital <br/>Agency
@@ -38,6 +39,7 @@ export const IndexPageTemplate = ({
            </div>
          </div>
        </div>
+      <img className="img-fluid img-pattern" src={pattern}/>
      </div>
    </section>
   </Fragment>
