@@ -4,6 +4,7 @@ import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 import pattern from '../img/new-pattern.svg'
+import team from '../img/team.svg'
 // import Features from '../components/Features'
 // import BlogRoll from '../components/BlogRoll'
 
@@ -18,7 +19,7 @@ export const IndexPageTemplate = ({
 }) => (
   <Fragment>
    <section className="one">
-     <div className="container ">
+     <div className="container">
        <div className="row py-5 mt-5">
          <div className="col-md-5">
            <div className="d-block mt-5 position-relative">
@@ -40,6 +41,105 @@ export const IndexPageTemplate = ({
          </div>
        </div>
       <img className="img-fluid img-pattern" src={pattern}/>
+     </div>
+   </section>
+   <section className="two py-5">
+     <div className="container pt-5">
+       <div className="row pt-5">
+         <div className="col-md-3">
+           <div className="card">
+             <div className="card-body">
+               <h4>Design</h4>
+               <span className="text-muted d-inline-block mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+              </span>
+             </div>
+           </div>
+         </div>
+         <div className="col-md-3">
+            <div className="card">
+              <div className="card-body">
+                <h4>Branding</h4>
+                <span className="text-muted d-inline-block mb-4">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                </span>
+              </div>
+            </div>
+         </div>
+         <div className="col-md-3">
+            <div className="card">
+              <div className="card-body">
+                <h4>Marketing</h4>
+                <span className="text-muted d-inline-block mb-4">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                </span>
+              </div>
+            </div>
+         </div>
+         <div className="col-md-3">
+            <div className="card">
+              <div className="card-body">
+                <h4>Software</h4>
+                <span className="text-muted d-inline-block mb-4">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                </span>
+              </div>
+            </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <section className="three d-flex position-relative">
+     <img className="team" src={team} />
+     <div className="container mt-5 py-5">
+       <div className="row mb-5">
+         <div className="col-md-6">
+           <h4>
+            We Craft Experiences For Business To Help Rach Our Customers
+           </h4>
+           <span className="text-muted d-inline-block mb-4">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+           </span>
+            <Link className="btn btn-orange" to="/contact">
+              Get Started
+            </Link>
+         </div>
+       </div>
+       
+     </div>
+   </section>
+   <section className="four position-relative">
+     <div className="container mt-5">
+      <div className="row pt-5 mt-5">
+        <div className="col-md-5">
+          <h4>
+          Business Has Only Two Functions - Marketing And Innovation
+          </h4>
+          <span className="text-muted d-inline-block mb-4">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+          </span>
+          <Link className="btn btn-orange" to="/contact">
+          Get Started
+          </Link>
+        </div>
+        <div className="col-md-7">
+        </div>
+      </div>
+     </div>
+   </section>
+   
+   <section className="five">
+     <div className="container mt-5 pt-5">
+       <div className="row mt-5 py-5">
+         <div className="col-md-12 text-center">
+           <h4>
+             What Our Client Says
+           </h4>
+           <span className="text-muted d-inline-block mb-4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br/>Lorem Ipsum has been the industry's standard dummy
+           </span>
+         </div>
+       </div>
      </div>
    </section>
   </Fragment>

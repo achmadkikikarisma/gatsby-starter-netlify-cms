@@ -68,6 +68,9 @@ const Navbar = class extends React.Component {
                 <a className="nav-link" href="#"><i className="fab fa-instagram"></i></a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#"><i className="fab fa-linkedin"></i></a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#"><i className="fab fa-twitter"></i></a>
               </li>
             </ul>
