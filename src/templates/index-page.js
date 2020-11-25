@@ -5,6 +5,12 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import pattern from '../img/new-pattern.svg'
 import team from '../img/team.svg'
+import team2 from '../img/team2.svg'
+import design from '../img/design.svg'
+import marketing from '../img/marketing.svg'
+import branding from '../img/branding.svg'
+import software from '../img/software.svg'
+import illustration from '../img/illustration.svg'
 // import Features from '../components/Features'
 // import BlogRoll from '../components/BlogRoll'
 
@@ -43,12 +49,13 @@ export const IndexPageTemplate = ({
       <img className="img-fluid img-pattern" src={pattern}/>
      </div>
    </section>
-   <section className="two py-5">
+   <section className="two mb-5 py-5">
      <div className="container pt-5">
        <div className="row pt-5">
          <div className="col-md-3">
            <div className="card">
              <div className="card-body">
+               <img src={design} className="img-fluid"/>
                <h4>Design</h4>
                <span className="text-muted d-inline-block mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
@@ -59,6 +66,7 @@ export const IndexPageTemplate = ({
          <div className="col-md-3">
             <div className="card">
               <div className="card-body">
+                <img src={branding} className="img-fluid"/>
                 <h4>Branding</h4>
                 <span className="text-muted d-inline-block mb-4">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
@@ -69,6 +77,7 @@ export const IndexPageTemplate = ({
          <div className="col-md-3">
             <div className="card">
               <div className="card-body">
+                <img src={marketing} className="img-fluid"/>
                 <h4>Marketing</h4>
                 <span className="text-muted d-inline-block mb-4">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
@@ -79,6 +88,7 @@ export const IndexPageTemplate = ({
          <div className="col-md-3">
             <div className="card">
               <div className="card-body">
+                <img src={software} className="img-fluid"/>
                 <h4>Software</h4>
                 <span className="text-muted d-inline-block mb-4">
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
@@ -92,7 +102,7 @@ export const IndexPageTemplate = ({
    <section className="three d-flex position-relative">
      <img className="team" src={team} />
      <div className="container mt-5 py-5">
-       <div className="row mb-5">
+       <div className="row">
          <div className="col-md-6">
            <h4>
             We Craft Experiences For Business To Help Rach Our Customers
@@ -105,12 +115,11 @@ export const IndexPageTemplate = ({
             </Link>
          </div>
        </div>
-       
      </div>
    </section>
    <section className="four position-relative">
-     <div className="container mt-5">
-      <div className="row pt-5 mt-5">
+     <div className="container">
+      <div className="row align-items-center mt-5">
         <div className="col-md-5">
           <h4>
           Business Has Only Two Functions - Marketing And Innovation
@@ -123,9 +132,11 @@ export const IndexPageTemplate = ({
           </Link>
         </div>
         <div className="col-md-7">
+          <img style={{width: '90%'}} className="img-fluid" src={team2}/>
         </div>
       </div>
      </div>
+     <img className="illustration" src={illustration}/>
    </section>
    
    <section className="five">

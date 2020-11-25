@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="259px" viewBox="0 0 256 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M129,0 L129,129 C57.7552673,129 0,71.2447327 0,0 L129,0 Z" id="path-1"></path>
+    </defs>
+    <g id="v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7">
+            <path d="M-32.5,162.5 L96.5,162.5 C96.5,197.846224 67.6223664,226.5 32,226.5 C-3.62236636,226.5 -32.5,197.846224 -32.5,162.5 Z" id="Combined-Shape-Copy-9" fill="#5FC694" transform="translate(32.000000, 194.500000) rotate(270.000000) translate(-32.000000, -194.500000) "></path>
+            <path d="M159.5,32.5 L288.5,32.5 C288.5,67.846224 259.622366,96.5 224,96.5 C188.377634,96.5 159.5,67.846224 159.5,32.5 Z" id="Combined-Shape-Copy-14" fill="#FF9582" transform="translate(224.000000, 64.500000) scale(-1, 1) rotate(270.000000) translate(-224.000000, -64.500000) "></path>
+            <path d="M95.5,32.5 L224.5,32.5 C224.5,67.846224 195.622366,96.5 160,96.5 C124.377634,96.5 95.5,67.846224 95.5,32.5 Z" id="Combined-Shape-Copy-15" fill="#1A55A9" transform="translate(160.000000, 64.500000) rotate(270.000000) translate(-160.000000, -64.500000) "></path>
+            <path d="M96.5,162.5 L225.5,162.5 C225.5,197.846224 196.622366,226.5 161,226.5 C125.377634,226.5 96.5,197.846224 96.5,162.5 Z" id="Combined-Shape-Copy-12" fill="#FA5C6B" transform="translate(161.000000, 194.500000) rotate(270.000000) translate(-161.000000, -194.500000) "></path>
+            <path d="M32.5,162.5 L161.5,162.5 C161.5,197.846224 132.622366,226.5 97,226.5 C61.3776336,226.5 32.5,197.846224 32.5,162.5 Z" id="Combined-Shape-Copy-13" fill="#1B4FB0" transform="translate(97.000000, 194.500000) scale(-1, 1) rotate(270.000000) translate(-97.000000, -194.500000) "></path>
+            <path d="M256,186 L256,259 C220.653776,259 192,226.316787 192,186 L256,186 Z" id="Combined-Shape-Copy-6" fill="#000000"></path>
+            <g id="Oval">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FA5C6B" transform="translate(64.500000, 64.500000) scale(1, -1) translate(-64.500000, -64.500000) " xlink:href="#path-1"></use>
+                <circle fill="#5AC695" mask="url(#mask-2)" cx="120" cy="135" r="47"></circle>
+            </g>
+            <rect id="Rectangle" fill="#1B4FB0" x="127" y="130" width="129" height="56"></rect>
+        </g>
+    </g>
+</svg>

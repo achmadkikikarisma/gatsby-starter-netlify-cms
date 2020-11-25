@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="255px" viewBox="0 0 252 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <path d="M252,13 L252,111 C197.876095,111 154,67.1239055 154,13 L252,13 Z" id="Combined-Shape-Copy-6" fill="#62C58E" transform="translate(203.000000, 62.000000) scale(1, -1) translate(-203.000000, -62.000000) "></path>
+            <path d="M224,111 L224,111 C239.463973,111 252,123.536027 252,139 L252,185 L252,185 C236.536027,185 224,172.463973 224,157 L224,111 Z" id="Rectangle" fill="#FA5A6E"></path>
+            <path d="M57,37 L57,37 C72.463973,37 85,49.536027 85,65 L85,111 L85,111 C69.536027,111 57,98.463973 57,83 L57,37 Z" id="Rectangle-Copy-9" fill="#F4D98F"></path>
+            <path d="M181,181 L183,181 L183,255 L181,255 C160.565464,255 144,238.434536 144,218 L144,218 C144,197.565464 160.565464,181 181,181 Z" id="Rectangle-Copy-7" fill="#9235EF" transform="translate(163.500000, 218.000000) scale(-1, 1) translate(-163.500000, -218.000000) "></path>
+            <path d="M121,37 L143,37 L143,111 L121,111 C100.565464,111 84,94.4345357 84,74 L84,74 C84,53.5654643 100.565464,37 121,37 Z" id="Rectangle-Copy-8" fill="#1B4FB0" transform="translate(113.500000, 74.000000) scale(-1, 1) translate(-113.500000, -74.000000) "></path>
+            <circle id="Oval" fill="#00D3BF" cx="196.5" cy="55.5" r="55.5"></circle>
+            <path d="M223.777233,152.111111 C221.75982,170.610907 206.287579,185 187.5,185 C167.341607,185 151,168.434536 151,148 C151,127.565464 167.341607,111 187.5,111 L224,111 L224,152.111111 L223.777233,152.111111 Z" id="Combined-Shape" fill="#BA83E5"></path>
+            <path d="M251.800735,222 C249.941088,240.553261 235.293659,255 217.5,255 C198.446176,255 183,238.434536 183,218 C183,197.744508 198.176689,181.290584 217,181.003807 L252,181 L252,222 L251.800735,222 Z" id="Combined-Shape-Copy-11" fill="#00D3BF" transform="translate(217.500000, 218.000000) scale(-1, -1) translate(-217.500000, -218.000000) "></path>
+            <rect id="Rectangle" fill="#1B4FB0" x="80" y="111" width="64" height="144"></rect>
+            <circle id="Oval" fill="#FF806B" cx="72" cy="183" r="72"></circle>
+        </g>
+    </g>
+</svg>

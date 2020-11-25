@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236px" height="256px" viewBox="0 0 236 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M106,191.397737 C103.894751,190.745729 101.911808,189.564324 100.249782,187.853522 L17.1065031,102.226611 C-7.04165449,77.3272373 -5.62337142,36.0993413 21.3605131,13.1280847 C44.9069494,-6.88549766 79.9687532,-3.28581507 101.538825,18.9567999 L106,23.5418033 L106,191.397737 Z" id="path-1"></path>
+    </defs>
+    <g id="v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-54.000000, -879.000000)" id="Group-5">
+            <g transform="translate(54.000000, 879.000000)">
+                <path d="M236,0 L236,64 C200.653776,64 172,35.346224 172,0 L236,0 Z" id="Combined-Shape-Copy-6" fill="#000000" transform="translate(204.000000, 32.000000) scale(-1, 1) translate(-204.000000, -32.000000) "></path>
+                <path d="M0,128 L129,128 C129,163.346224 100.122366,192 64.5,192 C28.8776336,192 0,163.346224 0,128 Z" id="Combined-Shape" fill="#B881E4"></path>
+                <path d="M0,64 L129,64 C129,99.346224 100.122366,128 64.5,128 C28.8776336,128 0,99.346224 0,64 Z" id="Combined-Shape-Copy-7" fill="#FF9484" transform="translate(64.500000, 96.000000) scale(1, -1) translate(-64.500000, -96.000000) "></path>
+                <path d="M0,0 L129,0 C129,35.346224 100.122366,64 64.5,64 C28.8776336,64 0,35.346224 0,0 Z" id="Combined-Shape-Copy-8" fill="#5FC694"></path>
+                <path d="M0,192 L129,192 C129,227.346224 100.122366,256 64.5,256 C28.8776336,256 0,227.346224 0,192 Z" id="Combined-Shape-Copy-9" fill="#5FC694" transform="translate(64.500000, 224.000000) scale(1, -1) translate(-64.500000, -224.000000) "></path>
+                <g id="Combined-Shape-Copy-10" transform="translate(129.000000, 64.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FF806B" xlink:href="#path-1"></use>
+                    <path d="M50,65 L172,65 C172,98.137085 144.68937,125 111,125 C77.3106303,125 50,98.137085 50,65 Z" fill="#F9C725" mask="url(#mask-2)"></path>
+                </g>
+                <rect id="Rectangle" fill="#F9C725" x="129" y="0" width="43" height="129"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
