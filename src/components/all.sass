@@ -16,6 +16,18 @@ $black: #2b2523
 //   font-weight: bold;
 //   font-size: 72px;
 
+.container-fluid
+  max-width: 90rem;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  width: 90% !important;
+
+.navbar
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border-bottom: 1px solid #eee;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -184,6 +196,8 @@ footer.footer
     height: auto;
     margin-bottom: 15px;
   .col-md-3
+    padding-right: 45px;
+    padding-left: 45px;
     &:nth-child(2)
       .card
         margin-top: 45px;
@@ -249,38 +263,124 @@ footer.footer
       a
         padding-right: 0px !important
 .hero
-  // background: #5e72eb;
-  position: relative;
-  > div
-    z-index: 111;
-  &::before
-    background: #5e72eb;
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  &::after
-    content: '';
-    width: 100%;
-    height: 75%;
-    background: #5e72eb;
-    transform: skewY(-6deg);
-    position: absolute;
-    bottom: -50%;
-    z-index: 1;
-  h1, b
-    color: #fff;
-    font-weight: bold;
-  .btn-hire
-    margin-top: 30px;
+  .hero-container
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    max-width: unset;
+    width: 100% !important;
+  .hero-descriptions
+    margin-left: -45px;
+    margin-right: -45px;
+    .col-md-3
+      text-align: center;
+      padding-left: 45px;
+      padding-right: 45px;
+      h1
+        font-size: 1.5rem;
+        font-family: "Airbnb ExtraBold";
+      h4
+        font-family: "Airbnb Bold";
+        font-size: 1rem;
+        margin-bottom: 20px;
+      &:nth-child(4)
+        h4
+          color: #37b635;
+      &:nth-child(3)
+        h4
+          color: #0d96f2;
+      &:nth-child(2)
+        h4
+          color: #663399;
+      &:nth-child(1)
+        h4
+          color: #db3a00;
+    .btn
+      font-family: "Airbnb Bold";
+      font-weight: 600;
+      font-size: 1rem;
+      min-height: 1rem;
+      min-width: 1.5rem;
+      padding: 0.5rem 1.25rem;
+      border-radius: 30px;
+      box-shadow: 0 7px 14px rgba(0,0,0,0.05), 0 5px 5px rgba(0,0,0,0.03);
+      color: #fff;
+    .btn-design
+      background: #db3a00;
+    .btn-branding
+      background: #663399;
+    .btn-marketing
+      background: #0d96f2;
+    .btn-software
+      background: #37b635;
+
+.portfolio
+  h2
+    font-family: "Airbnb ExtraBold";
+  .portfolio-item
     background: #fff;
-    padding: 6px 30px;
-    border-radius: 30px;
-    color: #5e72eb;
-    border: 1px solid #fff !important;
-    font-weight: bold;
-    box-shadow: rgba(255, 2555, 255, 0.2) 0px 2px 6px 0px;
-  
+    border-radius: 5px;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.05), 0 5px 5px rgba(0,0,0,0.03);
+    margin-bottom: 30px;
+    img
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      height: 290px;
+      object-fit: cover;
+      object-position: top;
+      width: 100%;
+.workflow
+  .row-workflow
+    text-align: center;
+    .col-md-12
+      &:nth-child(1)
+        .row-content
+          &:nth-child(2)
+            span.step
+              background: rgba(219, 58, 0, 0.3);
+              color: #db3a00;
+      &:nth-child(2)
+        .row-content
+          &:nth-child(2)
+            span.step
+              color: #663399;
+              background: rgba(102, 51, 153, 0.3);
+      &:nth-child(3)
+        .row-content
+          &:nth-child(2)
+            span.step
+              color: #0d96f2;
+              background: rgba(13, 150, 242, 0.3);
+      &:nth-child(4)
+        .row-content
+          &:nth-child(2)
+            span.step
+              color: #37b635;
+              background: rgba(55, 182, 53, 0.3);
+    .row-content
+      span.step
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Airbnb ExtraBold";
+        box-shadow: 0 7px 14px rgba(0,0,0,0.05), 0 5px 5px rgba(0,0,0,0.03);
+      &:nth-child(2)
+        span.step
+          background: rgba(219, 58, 0, 0.3);
+          color: #db3a00;
+    p
+      text-transform: uppercase;
+    h2
+      font-family: "Airbnb Bold";
+      span
+        color: #db3a00;
+        font-family: "Airbnb ExtraBold";
+    h1
+      font-family: "Airbnb ExtraBold";
+
 .pricing
   margin-top: 200px;
   background: transparent;
@@ -320,3 +420,17 @@ footer.footer
     border-radius: 50%;
     background: #5e72eb;
     color: #fff;
+footer
+  .footer-divider
+    border-top: 1px solid #eee;
+  .footer-list
+    ul
+      h6
+        font-family: "Airbnb ExtraBold";
+      li
+        margin-bottom: 10px;
+        display: block;
+        a
+          display: inline-block;
+          text-decoration: none;
+          color: #6c757d !important;

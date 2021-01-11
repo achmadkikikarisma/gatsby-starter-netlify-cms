@@ -10,7 +10,149 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <div></div>
+      <footer className="pt-5 pb-4">
+        <div className="container-fluid mt-5">
+          <div className="row">
+            <div className="col-md-12">
+
+            </div>
+          </div>
+        </div>
+        <div className="footer-divider">
+          <div className="container-fluid pt-4">
+            <div className="row footer-list">
+              <div className="col-md-3">
+                <ul class="list-unstyled">
+                  <h6 className="text-uppercase">
+                    Open source
+                  </h6>
+                  <li>
+                    <a href="javascript:;">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Quick Start
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Tutorial
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      How to Guides
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Refrence Guides
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-3">
+                <ul class="list-unstyled">
+                  <h6 className="text-uppercase">
+                    Open source
+                  </h6>
+                  <li>
+                    <a href="javascript:;">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Quick Start
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Tutorial
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      How to Guides
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Refrence Guides
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-3">
+                <ul class="list-unstyled">
+                  <h6 className="text-uppercase">
+                    Open source
+                  </h6>
+                  <li>
+                    <a href="javascript:;">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Quick Start
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Tutorial
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      How to Guides
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Refrence Guides
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-3">
+                <ul class="list-unstyled">
+                  <h6 className="text-uppercase">
+                    Open source
+                  </h6>
+                  <li>
+                    <a href="javascript:;">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Quick Start
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Tutorial
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      How to Guides
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      Refrence Guides
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
       // <footer className="footer has-background-black has-text-white-ter">
       //   <div className="content has-text-centered">
       //     <img
